@@ -14,6 +14,16 @@
 ///
 void KarelProgram() {
 /// @todo Добавить программу для Карела
+     Move();
+     Move();
+     for(int i=0; i<3; i++)
+     TurnLeft();
+     Move();
+     TurnLeft();
+     Move();
+
+
+
 
 }
 
