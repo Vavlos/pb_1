@@ -22,7 +22,7 @@ void KarelProgram() {
 /// Стартовая функция
 ///
 int main() {
-    LoadWorld("worlds/.w");
+    LoadWorld("worlds/Double_beepers_01.w");
     KarelProgram();
     Finish();
     return 0;
