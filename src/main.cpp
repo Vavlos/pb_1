@@ -54,7 +54,7 @@ int sum=0;
 /// Стартовая функция
 ///
 int main() {
-    LoadWorld("worlds/CB_01.w");
+    LoadWorld("worlds/CB_02.w");
     KarelProgram();
     Finish();
     return 0;
