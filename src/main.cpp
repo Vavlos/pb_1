@@ -15,7 +15,7 @@
 void KarelProgram() {
 /// @todo Добавить программу для Карела
 int sum=0;
-    for(int i=0; i<=50; i++){
+    for(int i=0; i<=60; i++){
     if(BeepersPresent()){
         PickBeeper();
     }else if (FrontIsClear()){
@@ -40,6 +40,8 @@ int sum=0;
             TurnLeft();
             TurnLeft();
             TurnLeft();
+            }else{ 
+                break;
             }
         }
     }
@@ -52,7 +54,7 @@ int sum=0;
 /// Стартовая функция
 ///
 int main() {
-    LoadWorld("worlds/CB_03.w");
+    LoadWorld("worlds/CB_01.w");
     KarelProgram();
     Finish();
     return 0;
